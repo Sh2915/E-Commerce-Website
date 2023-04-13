@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive E-Commerce Website using Javascript</title>
+    <!--Link to CSS Sheet-->
+    <link href="style.css" rel="stylesheet">
+    <!--Fav Icon-->
+    <link href="images/logo (1).png" type="image/x-icon" rel="shortcut icon">
+    <!--Box icons link-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    
+</head>
+<body>
+    <!----------------------------NavBar------------------------>
+    <header>
+        <div class=" nav container">
+             <!--logo-->
+             <a href="#" class="logo"><img src="images/logo (1).png" alt=""></a>
+             <!-----------Navigation Bar Links---------->
+             <ul class="navbar">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#new">New</a></li>
+             </ul>
+             <!------Icons---------->
+             <div class="nav-icons">
+                <a href="#" class="user"><i class='bx bxs-user'></i></a>
+                <a href="#" class="cart"><i class='bx bxs-cart'></i><span>0</span></a> <!--0 is number of items in the cart-->
+                <i class='bx bx-menu' id="menu-icon"></i>
+            </div>
+        </div>
+    </header>
+    <!------------------------HOME----------------------------------------->
+    <section class="home" id="home">
+       <!-----------Home content---------------->
+       <div class="home-container container">
+        <div class="home-text">
+            <h1>Winter collection<br>LightNylon</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Autem ratione voluptates commodi nam dicta odit, soluta cupiditate
+           natus iure perferendis <br>voluptate doloremque magnam quasi minima. 
+          Minus recusandae ab quis aliquam.</p>
+          <!-----------Home button----------------------------->
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+        <!---------------Home Image--------------------------->
+        <div class="home-img">
+            <img src="images/home.png" alt="">
+        </div>
+       </div>
+    </section>
+
+<!---------------------------Featured------------------------------------------>
+<section class="featured" id="featured">
+    <!--------Heading--------->
+    <div class="heading">
+        <h2>Featured <span>Items</span></h2>
+    </div>
+    <div class="featured-container container">
+    <!-----------------BOX-1------------->
+       <div class="box">
+          <img src="images/featured1.png" alt="">
+          <div class="text">
+            <h2>New Collection<br>Of Shoes</h2>
+            <a href="#">View More</a>
+          </div>
+       </div>
+       <!-----------------BOX-2------------->
+       <div class="box">
+        <img src="images/featured2.png" alt="">
+        <div class="text">
+          <h2>Discount<br>Of Shoes</h2>
+          <a href="#">View More</a>
+        </div>
+     </div>
+</div>
+</section>
+<!--------------Shop------------------------------------------>
+<section class="shop" id="shop">
+    <div class="heading">
+        <h2><span>Shop</span>Now</h2> <!---bythis a bottom line appears at the shop text span element styling-->   
+    </div>
+    <!-----------Shop Content-------------->
+    <div class="shop-container container">
+        <div class="box">
+            <img src="images/shop1.png">
+            <h2>Nike Therma</h2>
+            <span>50.99$</span>
+            <a href="#"><i class='bx bx-cart-alt'></i></a>
+        </div>
+        <div class="box">
+            <img src="images/shop2.png">
+            <h2>Nike Therma</h2>
+            <span>50.99$</span>
+            <a href="#"><i class='bx bx-cart-alt'></i></a>
+        </div>
+        <div class="box">
+            <img src="images/shop3.png">
+            <h2>Nike Therma</h2>
+            <span>50.99$</span>
+            <a href="#"><i class='bx bx-cart-alt'></i></a>
+        </div>
+        <div class="box">
+            <img src="images/shop4.png">
+            <h2>Nike Therma</h2>
+            <span>50.99$</span>
+            <a href="#"><i class='bx bx-cart-alt'></i></a>
+        </div>
+        <div class="box">
+            <img src="images/shop5.png">
+            <h2>Nike Therma</h2>
+            <span>50.99$</span>
+            <a href="#"><i class='bx bx-cart-alt'></i></a>
+        </div>
+        <div class="box">
+            <img src="images/shop6.png">
+            <h2>Nike Therma</h2>
+            <span>50.99$</span>
+            <a href="#"><i class='bx bx-cart-alt'></i></a>
+        </div>
+    </div>
+</section>
+<!----------------------NEW CONTAINER-NEW ARRIVALS----------------------------------------->
+<section class="new" id="new">
+    <div class="heading">
+        <h2>New<span>Arrivals</span></h2> <!---bythis a bottom line appears at the shop text span element styling-->   
+    </div>
+    <!-----------New ARRIVAL Content-------------->
+    <div class="shop-container container">
+        <div class="box">
+            <img src="images/new1.png">
+            <h2>Nike Shoes</h2>
+            <span>50.99$</span>
+            <a href="#"><i class='bx bx-cart-alt'></i></a>
+        </div>
+        <div class="box">
+            <img src="images/new2.png">
+            <h2>New Bagpack</h2>
+            <span>50.99$</span>
+            <a href="#"><i class='bx bx-cart-alt'></i></a>
+        </div>
+        <div class="box">
+            <img src="images/new3.png">
+            <h2>Nike Hat</h2>
+            <span>50.99$</span>
+            <a href="#"><i class='bx bx-cart-alt'></i></a>
+        </div>
+    </div>
+    </section>
+    <!---------------------------NEWSLETTER-------------------------------->
+    <section class="newsletter container">
+        <div class="heading">
+            <h2>Subscribe<span>NewsLetter</span></h2>  
+        </div>
+     <form action="">
+        <input type="email" name=""id="" placeholder="Enter your email..."class="email-box"required>
+        <input type="submit" value="Subscribe"class="btn">
+     </form>
+    </section>
+    <!---------------------Footer---------------------------------->
+    <section class="footer container">
+        <div class="footer-box">
+            <a href="#" class="logo"><img src="images/logo (1).png" alt=""></a>
+            <!-------the footer section contains 4 sections one row for social links
+                second row for inpage navigation third for legalterms---->
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-youtube'></i></a>
+            </div>
+
+        </div>
+        <div class="footer-box">
+            <h3>Pages</h3>
+            <a href="#home">Home</a>
+            <a href="#featured">Featured</a>
+            <a href="#shop">Shop</a>
+            <a href="#new">New</a>
+        </div>
+        <div class="footer-box">
+            <h3>Legal</h3>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">Terms of use</a>
+            <a href="#">Disclaimer</a>
+        </div>
+        <div class="footer-box">
+            <h2>Branches</h2>
+            <p>United States</p>
+            <p>Japan</p>
+            <p>Germany</p>
+            <p>Italy</p>
+        </div>
+    </section>
+    <!------------------------CopyRight----------------->
+    <div class="copyright">
+        <p>&#169;All rights reserved</p>
+    </div>
+    <!-----Link to js-->
+    <script src="script.js"></script>
+</body>
+</html>
